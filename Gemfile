@@ -7,6 +7,9 @@ ruby '2.6.5'
 gem 'rails', '~> 6.0.1'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+#a simple API for performing paginated queries
+gem 'will_paginate', '~> 3.2', '>= 3.2.1'
+gem 'bootstrap-will_paginate', '~> 1.0'
 # Use SCSS for stylesheets
 #bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.
 gem 'bootstrap-sass', '~> 3.4.1'
@@ -22,7 +25,6 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1', '>= 3.1.13'
-
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
