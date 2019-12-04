@@ -27,7 +27,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+#Extracting `assigns` and `assert_template` from ActionDispatch.
+gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
