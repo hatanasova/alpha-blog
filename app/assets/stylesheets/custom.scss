@@ -3,7 +3,6 @@ $navbar-default-bg: #000;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
 #logo {
   float: left;
   font-size: 1.7em;
@@ -102,4 +101,14 @@ footer ul {
 footer ul li {
   float: left;
   margin: 15px;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
+.badge {
+  background-color: #eae9e9 !important;
+  text-transform: uppercase;
+  font-weight: bold;
 }
